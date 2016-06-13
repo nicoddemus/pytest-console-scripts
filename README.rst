@@ -67,6 +67,8 @@ the functionality, it's time to run the script in subprocess mode to simulate
 real invocation more closely. There are several ways to do this. We can
 configure it via pytest configuration (for example in ``tox.ini``)::
 
+.. code-block:: ini
+
      [pytest]
      script_launch_mode = subprocess
 
